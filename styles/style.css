@@ -34,10 +34,10 @@ padding: 15px 35px;
 /* *nav bar section */
 .header{
     background-color:#FFF8F3;
-    background-image: url(../images/header_bg.png);
-    background-size: 45%;
-    background-repeat:no-repeat;
-background-position: bottom right;
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
+    background-size: 45% auto, 6% auto;
+    background-repeat:no-repeat, no-repeat;
+background-position: bottom right, left;
 }
 nav{
     display: flex;
@@ -206,6 +206,9 @@ footer{
 }
 .social-icon{
     display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+   
 }
 .footer-column{
     width: 50%;
